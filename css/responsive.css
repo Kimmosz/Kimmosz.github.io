@@ -1,0 +1,137 @@
+/* Viewport <= 340 */
+@media only screen and (max-width: 380px) {
+    /* Buttons */
+    .btn.button.primary-button.mr-4.text-uppercase,
+    .btn.button.secondary-button.text-uppercase {
+        width: 175px;
+        height: 50px;
+    }
+    /* Header Area */
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .services-area {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title h1 {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .site-main .site-banner .site-title h4 {
+        font-size: 20px;
+    }
+    /* Services Area */
+    .site-main > .services-area .services {
+        width: 13rem;
+    }
+    /* Skills Area */
+    .line-label {
+        font-size: 10px;
+    }
+    .chart-label {
+        font-size: 8px
+    }
+
+    /* Projects Area */
+    .site-main .project-area .button-group button + button {
+        padding-left: 1rem;
+    }
+
+    /* Footer Area */
+    footer.footer-area .social a > i {
+        font-size: 25px;
+        padding: 1rem;
+        color: lightgrey;
+    }
+}
+
+/* Viewport <= 792 */
+@media only screen and (max-width: 792px) {
+    /* Buttons */
+    .btn.button.primary-button.mr-4.text-uppercase {
+        width: 180px;
+        font-size: 13px;
+    }
+    .btn.button.secondary-button.text-uppercase {
+        width: 180px; 
+        font-size: 17px;
+    }
+
+    /* About Area */
+    .site-main .about-area .about-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    
+    /* Skills Area */
+    .line-label {
+        font-size: 12px;
+    }
+    .chart-label {
+        font-size: 10px
+    }
+
+    /* Project Area */
+    .site-main .project-area .button-group button {
+        font: normal 500 18px/40px var(--roboto);
+    }
+    .site-main .project-area .button-group button {
+        font-size: 14px;
+    }
+    .site-main .project-area .grid .my-project > .title h4 {
+        font-size: 16px;
+    }
+    .project-image {
+        width: 75%;
+        height: 75%
+    }
+
+    /* Certificate Area */
+    .site-main .certificate-area .about-title p {
+        padding: 0%;
+    }
+    
+    /* Contact Area */
+    .site-main .contact-area .contact-title {
+        padding-top: 35%;
+    }
+}
+
+/* Viewport <= 1910 */
+@media only screen and (max-width: 1910px) {
+    .btn.button.primary-button.mr-4.text-uppercase {
+        width: 200;
+        font-size: 14px;
+    }
+
+    /* Header Area */
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    /* Services & Certificates Area */
+    .site-main .services-area .services-title,
+    .site-main .certificate-area{
+        padding: 3% 4%;
+    }
+}
+
+/* Viewport <= 990 */
+@media screen and (max-width:990px){
+    .skills-container {
+        grid-tempLate-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+/* Viewport <= 650px */
+@media screen and (max-width:650px){
+    .skills-container {
+        grid-tempLate-columns:2fr;
+        padding: 2rem 50px;
+    }
+}
