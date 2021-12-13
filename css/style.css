@@ -188,7 +188,6 @@ ul {
 
 .line-label.title {
   font: var(--roboto);
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -197,8 +196,6 @@ ul {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 10;
   font: var(--roboto);
 }
 
@@ -212,7 +209,6 @@ ul {
   font-weight: bold;
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
-  text-transform: uppercase;
 }
 
 .chart-horizontal {
@@ -251,7 +247,7 @@ ul {
 /* Projects Area */
 .site-main .project-area {
   padding: 4rem 0;
-  padding-top: 20%;
+  padding-top: 15%;
   text-align: center;
 }
 
@@ -285,16 +281,13 @@ ul {
 /* Certificates Area */
 .site-main .certificate-area .certificate-title {
   font: normal 35px/2px var(--audiowide);
-  padding-top: 10%;
-}
-.site-main .certificate-area .certificate-title p{
-  padding: 1rem;  
+  padding-top: 5%;
 }
 
 .site-main .certificate-area .certificate{
   background: #ffffff10;
   box-shadow: var(--box-shadow);
-  margin: 3rem 0rem;
+  margin: 2rem;
 }
 
 .site-main .certificate-area .certificate .certificate-img {
@@ -313,6 +306,11 @@ ul {
   font-size: 14px;
 }
 
+.site-main .certificate-area .certificate .about-certificate i {
+  color: grey;
+  font-size: 10px;
+}
+
 .site-main .certificate-area .owl-carousel .owl-item{
   display: flex;
   justify-content: center;
@@ -328,10 +326,7 @@ ul {
 /* Contact Area */
 .site-main .contact-area .contact-title {
   font: normal 35px/2px var(--audiowide);
-  padding-top: 20%;
-}
-.site-main .contact-area .contact-title p{
-    padding: 1rem;
+  padding-top: 5%;
 }
 
 /* Footer Area */
