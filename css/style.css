@@ -38,6 +38,7 @@ a.btn.btn-dark:hover {
     box-shadow: 0 0 0 slateblue;
   }
 }
+/* End Modal Area */
 
 /* Navigation Menu */ 
 .header_area .main-menu .navbar .navbar-brand {
@@ -61,12 +62,13 @@ a.btn.btn-dark:hover {
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav :hover{
+.header_area .main-menu .navbar-nav :hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+/* End Navigation Menu */
 
 /* Banner Area */
 .site-main .site-banner .site-title h1 {
@@ -91,6 +93,7 @@ a.btn.btn-dark:hover {
   width: 200px; 
   font-size: 14px;
 }
+/* End Banner Area */
 
 /* About Area */
 .site-main .about-area {
@@ -105,22 +108,23 @@ a.btn.btn-dark:hover {
 .site-main .about-area .about-title .paragraph > p {
     padding: .4rem 0;
 }
+/* End About Area */
 
 /* Services Area */
-.site-main .services-area{
+.site-main .services-area {
     padding: 2rem 2rem;
 }
 
-.site-main .services-area .services-title{
+.site-main .services-area .services-title {
     padding: 0 14rem;
 }
 
-.site-main .services-area .services-title h1{
+.site-main .services-area .services-title h1 {
   font: normal 35px/2px var(--audiowide);
   margin-bottom: 4%;
 }
 
-.site-main > .services-area .services{
+.site-main > .services-area .services {
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
@@ -129,9 +133,10 @@ a.btn.btn-dark:hover {
     height: 350px;
 }
 
-.site-main > .services-area .services:hover{
+.site-main > .services-area .services:hover {
     box-shadow: var(--box-shadow);
 }
+/* End Services Area */
 
 /* Skills Area */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -243,6 +248,7 @@ ul {
     opacity: 1;
   }
 }
+/* End Skills Area */
 
 /* Projects Area */
 .site-main .project-area {
@@ -270,13 +276,14 @@ ul {
   font: normal 700 25px/12px var(--roboto);
 }
 
-.site-main .project-area .grid .my-project .img a:hover img{
+.site-main .project-area .grid .my-project .img a:hover img {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .col-lg-4.col-md-6.col-sm-12.element-item .project-image {
   border-radius: 15px;
 }
+/* End Projects Area */
 
 /* Certificates Area */
 .site-main .certificate-area .certificate-title {
@@ -284,7 +291,7 @@ ul {
   padding-top: 5%;
 }
 
-.site-main .certificate-area .certificate{
+.site-main .certificate-area .certificate {
   background: #ffffff10;
   box-shadow: var(--box-shadow);
   margin: 2rem;
@@ -298,11 +305,11 @@ ul {
   padding-top: 2rem;
 }
 
-.site-main .certificate-area .certificate .about-certificate h4{
+.site-main .certificate-area .certificate .about-certificate h4 {
   font: normal 500 19px/ 18px var(--roboto);
 }
 
-.site-main .certificate-area .certificate .about-certificate p{
+.site-main .certificate-area .certificate .about-certificate p {
   font-size: 14px;
 }
 
@@ -311,23 +318,25 @@ ul {
   font-size: 10px;
 }
 
-.site-main .certificate-area .owl-carousel .owl-item{
+.site-main .certificate-area .owl-carousel .owl-item {
   display: flex;
   justify-content: center;
   padding: 0 1.5rem;
 }
 
-.site-main .certificate-area .owl-carousel .owl-dots .owl-dot.active span{
+.site-main .certificate-area .owl-carousel .owl-dots .owl-dot.active span {
   background: var(--primary-color);
   width: 12px;
   height: 12px;
 }
+/* End Certificates Area */
 
 /* Contact Area */
 .site-main .contact-area .contact-title {
   font: normal 35px/2px var(--audiowide);
   padding-top: 5%;
 }
+/* End Contact Area */
 
 /* Footer Area */
 footer.footer-area {
@@ -341,6 +350,7 @@ footer.footer-area .social a > i {
     color: lightgrey;
 }
 
-footer.footer-area .social a:hover > i{
+footer.footer-area .social a:hover > i { 
     color: var(--primary-color);
 }
+/* End Footer Area */
