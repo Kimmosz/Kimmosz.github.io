@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    // Language toggle
+    $('[lang="nl"]').hide();
+
+    $('#languageToggle').click(function() {
+        $('[lang="nl"]').toggle();
+        $('[lang="en"]').toggle();
+    });
+
+    // Buttons
     let $btns = $('.project-area .button-group button');
 
     $btns.click(function (e) {
