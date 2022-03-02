@@ -68,6 +68,16 @@ a.btn.btn-dark:hover {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.header_area .header {
+  text-align: center;
+}
+
+.header_area .header img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* End Navigation Menu */
 
 /* Banner Area */
