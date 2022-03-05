@@ -7,6 +7,14 @@
 /* Import Global */
 @import url(./partials/_global.css);
 
+
+hr {
+  color: var(--primary-color);
+  size: 5;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 /* Modal Area */
 .modal-header {
   background: var(--gradient-color);
@@ -164,6 +172,7 @@ ul {
   height: 900px;
   margin: auto;
   position: relative;
+  margin-bottom: 10%;
 }
 
 .lines {
@@ -265,7 +274,7 @@ ul {
 /* Projects Area */
 .site-main .project-area {
   padding: 4rem 0;
-  padding-top: 15%;
+  padding-top: 5%;
   text-align: center;
 }
 
@@ -278,6 +287,10 @@ ul {
   border: none;
   font: normal 500 16px/130px var(--roboto);
   text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button:hover { 
+  color: var(--primary-color2);
 }
 
 .site-main .project-area .button-group button + button {
@@ -302,7 +315,6 @@ ul {
 /* Certificates Area */
 .site-main .certificate-area .certificate-title {
   font: normal 35px/2px var(--audiowide);
-  padding-top: 5%;
 }
 
 .site-main .certificate-area .certificate {
@@ -348,7 +360,7 @@ ul {
 /* Contact Area */
 .site-main .contact-area .contact-title {
   font: normal 35px/2px var(--audiowide);
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 /* End Contact Area */

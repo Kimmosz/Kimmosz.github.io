@@ -49,6 +49,7 @@
 
     /* Services Area */
     .site-main .services-area {
+        margin-top: 10%;
         margin-bottom: 10%;
     }
 
@@ -64,7 +65,7 @@
 
     /* Skills Area */
     .site-main .skills-area {
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
 
     .line-label {
@@ -78,6 +79,7 @@
     /* Projects Area */
     .site-main .project-area .title-h1{
         font-size: 1.8rem;
+        margin-top: 5%;
         margin-bottom: 10%;
     }
 
@@ -161,18 +163,22 @@
     }
 
     .col-lg-4.col-md-6.col-sm-12.element-item .project-image {
-        width: 75%;
-        height: 75%;
+        width: 250px;
+        height: 250px;
     }
 
     /* Certificate Area */
     .site-main .certificate-area .certificate-title .title-h1 {
-        margin-bottom:  5%;
+        margin-bottom: 5%;
+    }
+    
+    .site-main .certificate-area {
+        margin-bottom: 10%;
     }
     
     /* Contact Area */
     .site-main .contact-area .contact-title .title-h1 {
-        padding-top: 20%;
+        padding-top: 5%;
         margin-bottom: 5%;
     }
 }
