@@ -3,9 +3,10 @@
     /* Buttons */
     .btn.button.primary-button.mr-4.text-uppercase,
     .btn.button.secondary-button.text-uppercase {
-        width: 175px;
+        width: 100%;
         height: 50px;
     }
+
     /* Header Area */
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
@@ -13,29 +14,102 @@
         padding: 2%;
         margin: 0%;
     }
+
+    /* Banner Area */
     .site-main .site-banner .site-title h1 {
-        margin-top: 5%;
-        font-size: 30px;
+        padding-top: 10%;
+        font-size: 1.8rem;
+        text-align: center;
     }
     .site-main .site-banner .site-title h4 {
-        font-size: 20px;
+        padding-bottom: 2%;
+        font-size: 1.3rem;
+        text-align: center;
     }
+
+    .site-main .site-banner .btn.button.primary-button.mr-4.text-uppercase {
+        margin-left: 18%;
+    }
+    
+    /* About Area */
+    .site-main .about-area {
+        padding-left: 7%;
+        text-align: center;
+    }
+
+    .site-main .about-area h2 {
+        font: normal 12px var(--audiowide);
+        font-size: .5rem;
+    }
+
+    .site-main .about-area .about-title .paragraph > p {
+        margin-top: -10%;
+        width: 300px;
+    }
+
     /* Services Area */
-    .site-main > .services-area .services {
-        width: 13rem;
+    .site-main .services-area {
+        margin-bottom: 10%;
     }
+
+    .site-main > .services-area .services {
+        width: 15rem;
+        margin-bottom: 10%;
+    }
+    
+    .site-main .services-area .services-title h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10%;
+    }
+
     /* Skills Area */
+    .site-main .skills-area {
+        margin-bottom: 10%;
+    }
+
     .line-label {
         font-size: 10px;
     }
+
     .chart-label {
         font-size: 8px
     }
 
     /* Projects Area */
+    .site-main .project-area .title-h1{
+        font-size: 1.8rem;
+        margin-bottom: 10%;
+    }
+
+    .site-main .project-area .button-group {
+        margin-bottom: 5%;
+    }
+
     .site-main .project-area .button-group button + button {
         padding-left: 1rem;
     }
+
+    /* Certificate Area */
+    .site-main .project-area .title-h1 {
+        font-size: 1.8rem;
+    }
+
+    .site-main .certificate-area .certificate {
+        margin: 0.1rem;
+        box-shadow: var(--box-shadow-light);
+    }
+
+    .site-main .certificate-area .certificate .about-certificate h4 {
+        font-size: 12px;
+      }
+      
+      .site-main .certificate-area .certificate .about-certificate p {
+        font-size: 10px;
+      }
+
+      .site-main .certificate-area .certificate .about-certificate i {
+        font-size: 10px;
+      }
 
     /* Footer Area */
     footer.footer-area .social a > i {
@@ -59,8 +133,9 @@
 
     /* About Area */
     .site-main .about-area .about-title h2 > span {
-        font-size: 31px;
-        letter-spacing: 10px;
+        font: normal 12px var(--audiowide);
+        font-size: 1.5rem;
+        
     }
     
     /* Skills Area */
@@ -79,28 +154,33 @@
         font-size: 14px;
     }
     .site-main .project-area .grid .my-project > .title h4 {
-        font-size: 16px;
+        font-size: 20px;
     }
-    .project-image {
+    .site-main .project-area .grid .my-project > .title > span {
+        font-size: 14px;
+    }
+
+    .col-lg-4.col-md-6.col-sm-12.element-item .project-image {
         width: 75%;
-        height: 75%
+        height: 75%;
     }
 
     /* Certificate Area */
-    .site-main .certificate-area .about-title p {
-        padding: 0%;
+    .site-main .certificate-area .certificate-title .title-h1 {
+        margin-bottom:  5%;
     }
     
     /* Contact Area */
-    .site-main .contact-area .contact-title {
-        padding-top: 35%;
+    .site-main .contact-area .contact-title .title-h1 {
+        padding-top: 20%;
+        margin-bottom: 5%;
     }
 }
 
 /* Viewport <= 1910 */
 @media only screen and (max-width: 1910px) {
     .btn.button.primary-button.mr-4.text-uppercase {
-        width: 200;
+        width: 200px;
         font-size: 14px;
     }
 

@@ -82,7 +82,7 @@ a.btn.btn-dark:hover {
 
 /* Banner Area */
 .site-main .site-banner .site-title h1 {
-    font: normal 12px/2px var(--audiowide);
+    font: normal 12px var(--audiowide);
     padding-top: 10%;
     font-size: 3rem;
 }
@@ -90,6 +90,7 @@ a.btn.btn-dark:hover {
 .site-main .site-banner .site-title h4 {
     font-size: 1.5rem;
 }
+
 .site-main .site-banner .banner-image > img {
     padding: 7rem 0;
     width: 30rem;
@@ -99,6 +100,7 @@ a.btn.btn-dark:hover {
   width: 200px;
   height: 50px;
 }
+
 .btn.button.secondary-button.text-uppercase {
   width: 200px; 
   font-size: 14px;
@@ -107,11 +109,11 @@ a.btn.btn-dark:hover {
 
 /* About Area */
 .site-main .about-area {
-    padding: 8rem 5rem;
+    padding: 5rem 2rem;
 }
 
 .site-main .about-area .about-title .title-text {
-    font: normal 35px/2px var(--audiowide);
+    font: normal 35px var(--audiowide);
     padding: .4rem 0;
 }
 
@@ -292,6 +294,8 @@ ul {
 
 .col-lg-4.col-md-6.col-sm-12.element-item .project-image {
   border-radius: 15px;
+  width: 370px;
+  height: 325px;
 }
 /* End Projects Area */
 
@@ -346,11 +350,12 @@ ul {
   font: normal 35px/2px var(--audiowide);
   padding-top: 5%;
 }
+
 /* End Contact Area */
 
 /* Footer Area */
 footer.footer-area {
-    padding: 8rem 0;
+    padding: 7rem 0;
     background: url(../img/footer.png) no-repeat;
 }
 
