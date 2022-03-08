@@ -139,6 +139,11 @@
         font-size: 1.5rem;
         
     }
+
+    /* Certificate Area */
+    .site-main > .services-area .services {
+        margin: 0.5rem .5rem;
+    }
     
     /* Skills Area */
     .line-label {
@@ -180,6 +185,42 @@
     .site-main .contact-area .contact-title .title-h1 {
         padding-top: 5%;
         margin-bottom: 5%;
+    }
+}
+
+/* Viewport >= 900 */
+@media only screen and (min-width: 900px) {
+    /* Header Area */
+    .header_area .main-menu .nav-item .nav-link {
+        padding: 1rem;
+    }
+
+    /* Banner Area */
+    .site-main .site-banner .site-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .site-main .site-banner .site-title h4 {
+        font-size: 1.7rem;
+    }
+
+    /* Services Area */
+    .site-main .services-area .services h5 {
+        font-size: 18px;
+    }
+    .site-main > .services-area .services {
+        font-size: 13px;
+        width: 12rem;
+    }
+
+    /* Project Area */
+    .col-lg-4.col-md-6.col-sm-12.element-item .project-image {
+        width: 275px;
+        height: 275px;
+    }
+
+    .site-main .project-area .grid .my-project > .title h4 {
+        font-size: 18px;
     }
 }
 

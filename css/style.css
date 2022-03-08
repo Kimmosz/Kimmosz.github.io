@@ -7,7 +7,6 @@
 /* Import Global */
 @import url(./partials/_global.css);
 
-
 hr {
   color: var(--primary-color);
   size: 5;
@@ -140,8 +139,8 @@ a.btn.btn-dark:hover {
 }
 
 .site-main .services-area .services-title h1 {
-  font: normal 35px/2px var(--audiowide);
-  margin-bottom: 4%;
+  font: normal 35px/2 var(--audiowide);
+  margin-bottom: 1%;
 }
 
 .site-main > .services-area .services {
