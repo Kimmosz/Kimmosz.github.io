@@ -1,11 +1,11 @@
 /* Import Fonts */ 
-@import url(./fonts.css);
+@import url(fonts.css);
 
 /* Import Variables */
-@import url(./partials/variables.css);
+@import url(partials/variables.css);
 
 /* Import Global */
-@import url(./partials/global.css);
+@import url(partials/global.css);
 
 hr {
   color: var(--primary-color);
