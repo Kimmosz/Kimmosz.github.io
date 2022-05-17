@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    // Preloader
+    $(window).on('load', function () {
+        $('#preloader').delay(100).fadeOut(); 
+    });
+    
     // Language toggle
     $('[lang="nl"]').hide();
 
